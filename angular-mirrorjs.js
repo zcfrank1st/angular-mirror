@@ -1,7 +1,8 @@
 /**
  * Created by zcfrank1st on 11/26/14.
  */
-my.directive('mirror', function () {
+angular.module('chaos-mirror',[])
+    .directive('mirror', function () {
     return {
         restrict: 'E',
         template: function(ele, attr) {
