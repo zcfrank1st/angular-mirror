@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.js"></script>
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="index.js"></script>
+    <script src="angular-mirrorjs.js"></script>
+
+    <script src="test.js"></script>
+</head>
+<body ng-app="myapp">
+
+    <div ng-controller="test">
+        <mirror data="data" type="type" option="option" name="d1"></mirror>
+        <button ng-click="refresh()">click</button>
+
+        <mirror data="data2" type="type2" option="option2" name="d2"></mirror>
+        <button ng-click="refresh2()">click</button>
+    </div>
+</body>
+</html>
