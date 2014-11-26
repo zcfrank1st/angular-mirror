@@ -5,7 +5,7 @@ my.directive('mirror', function () {
     return {
         restrict: 'E',
         template: function(ele, attr) {
-            return "<div id='" + attr.name + "'></div>";
+            return "<div id='" + attr.name + "' class='" + attr.name +"'</div>";
         },
         scope: {
             data: '=',
