@@ -19,7 +19,10 @@
 <body ng-app="myapp">
 
     <div ng-controller="test">
-        <mirror data="data" type="type" option="option" name="d1"></mirror>
+        <div class="mirror-container">
+            <div class="mirror-label">活动图</div>
+            <mirror data="data" type="type" option="option" name="d1"></mirror>
+        </div>
         <button ng-click="refresh()">click</button>
 
         <mirror data="data2" type="type2" option="option2" name="d2"></mirror>

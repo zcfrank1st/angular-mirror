@@ -1,3 +1,13 @@
-#d1{width: 800px;height: 250px;margin: 20px auto 0 auto;}
+.mirror-label {
+    text-align: center;
+    margin: 20px auto auto auto;
+}
+
+.mirror-container {
+    width: 600px;margin: 10px auto 0 auto;
+    border:1px solid; border-color: whitesmoke; border-radius: 10px;
+}
+
+#d1{width: 600px;height: 250px;margin: 0 auto 0 auto;}
 
 #d2{width: 800px;height: 250px;margin: 20px auto 0 auto;}
